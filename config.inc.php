@@ -1,6 +1,6 @@
 <?php
 /* RUTAS DE ACCESO */
-define(	"RUTA_ACTUAL","http://finan.comsis.online/");  // URL actual del sistema
+define(	"RUTA_ACTUAL","http://local.financiera3.com/");  // URL actual del sistema
 define(	"BASE_TEMPLET","templet/"); 			// Ruta donde se aloje el tema o templet
 define(	"BASE_APP","app/"); 					// Ruta de la aplicacion
 define(	"BASE_ARCHIVO","att/"); 				// Ruta a guardar los archivos 
@@ -12,7 +12,7 @@ define(	"TEMPLET_HEADER","header.php"); 	// Define el archivo header
 define(	"TEMPLET_FOOTER","footer.php"); 	// Define el archivo de footer
 define(	"TEMPLET_MANTENIMIENTO","en_construccion.php"); 
 define(	"TEMPLET_404",'error404.php'); 		// Página default de error 404
-define(	"ESTADO_WEB","MANTENIMIENTO");  			// PUBLICO, MANTENIMIENTO 
+define(	"ESTADO_WEB","PUBLICO");  			// PUBLICO, MANTENIMIENTO 
 /* MODO DEMO http://dominio.com/?demo=NUMERO_DE_MES, Ej, http://dominio.com/?demo=5 (mayo)*/
 /* REGLAS DEL ALMACENAMIENTO DE ARCHIVOS */
 define("MAX_UPLOAD",20);			// Tamaño máximo de subida de archivos, expesada en Mb
@@ -35,8 +35,8 @@ define(	"DB_JMY_ADD_ID_D",true); //Agregar campos faltantes en la base de datos
 define(	"DB_JMY_ADD_TABLA",true); //Agregar Tablas faltantes en la base de datos
 /*MySQL*/
 define(	"DB_HO","localhost"); //servidor
-define(	"DB_US","b2p8j8g2_dfinan"); //usuario
-define(	"DB_PA","ppPAq9OI9r5O"); //contrase�a
+define(	"DB_US","root"); //usuario
+define(	"DB_PA",""); //contrase�a
 define(	"DB_DB","b2p8j8g2_dfinan"); //Base de datos
 
 
